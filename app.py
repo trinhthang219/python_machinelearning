@@ -8,10 +8,10 @@ ENV = 'prodhero'
 
 if ENV == 'dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://nfuzirdbmkkdjm:3a4d022de218e67b2463ebec16363625513b03934e556c07a21d4e499a0264be@ec2-184-72-238-22.compute-1.amazonaws.com:5432/d9qm9fmhb356kn'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://pmiuzmkenlukwk:dda140e22f3b513959b2976dfac653d64c8bd85b12afd162a7b24883a3b5166d@ec2-174-129-18-210.compute-1.amazonaws.com:5432/dabs26ir9mkqdh'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://nfuzirdbmkkdjm:3a4d022de218e67b2463ebec16363625513b03934e556c07a21d4e499a0264be@ec2-184-72-238-22.compute-1.amazonaws.com:5432/d9qm9fmhb356kn'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://pmiuzmkenlukwk:dda140e22f3b513959b2976dfac653d64c8bd85b12afd162a7b24883a3b5166d@ec2-174-129-18-210.compute-1.amazonaws.com:5432/dabs26ir9mkqdh'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
